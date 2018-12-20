@@ -1,0 +1,33 @@
+{
+  "name": "quasar-web",
+  "version": "0.5.11",
+  "description": "an Express web application for the quasar runtime",
+  "main": "index.js",
+  "author": "keneucker@gmail.com",
+  "scripts": {},
+  "bin": {},
+  "dependencies": {
+    "quasar": "latest",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-json-promise": "^0.1.2",
+    "fs": "^0.0.1-security",
+    "mkdirp-sync": "^0.0.3",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {},
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenEucker/quasar-web.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenEucker/quasar-web/issues"
+  },
+  "homepage": "https://github.com/KenEucker/quasar-web#readme"
+}

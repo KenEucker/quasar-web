@@ -1,0 +1,10 @@
+#!/bin/bash
+
+clear
+git pull
+bin/installDependencies "$@" --noLogo
+git commit -am 'dependencies update'
+npm version patch
+git commit -am 'version bump'
+git push
+npm publish

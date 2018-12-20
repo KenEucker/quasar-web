@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -rf node_modules
+rm yarn.lock
+yarn install
+yarn upgrade --latest --pattern "@digitaltrends"
+bin/version
+echo "installation completed"
